@@ -4,7 +4,7 @@
 **Live Project:** [View on GitHub](https://github.com/tushitasingh17/ecommerce-sql-analytics)
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Most businesses collect sales data but never extract meaningful insights from it.
 This project builds a complete e-commerce analytics system from scratch,
@@ -14,7 +14,7 @@ marketing team would ask.
 
 ---
 
-## 🗄️ Database Structure
+## Database Structure
 
 8 interconnected tables with 50 customers, 30 products, 100 orders and 200+ order items spanning 3 years of transactions.
 
@@ -40,11 +40,11 @@ marketing team would ask.
 
 **Customer Intelligence:**
 - 50 customers segmented into Champions, Loyal, At Risk, Potential and Lost
-- Highest spending customer: Rohit Sharma at ₹2,19,104 — classified as Potential due to recency drop
-- Most high-value customers are classified as Lost — signaling a retention problem
+- Highest spending customer: Rohit Sharma at ₹2,19,104, classified as Potential due to recency drop
+- Most high-value customers are classified as Lost, signaling a retention problem
 
 **Operations:**
-- Return rate: 14.43% — above healthy benchmark of 5-8%
+- Return rate: 14.43% above healthy benchmark of 5-8%
 - Premium laptops and smartphones account for majority of returns
 - Dead inventory identified across multiple product lines with capital blocked
 
@@ -54,7 +54,7 @@ marketing team would ask.
 
 ---
 
-## 📊 Query Categories
+## Query Categories
 
 ### Beginner (Queries 1-5)
 Basic sales reports, product performance, customer spend, monthly trends
@@ -69,7 +69,7 @@ cohort retention, product affinity, Pareto analysis, churn risk detection
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Customer Segmentation (RFM Analysis)
 ![Customer Segmentation](Customer_Segmentation.png)
@@ -79,25 +79,25 @@ cohort retention, product affinity, Pareto analysis, churn risk detection
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - MySQL 8.0
 - MySQL Workbench
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Open MySQL Workbench
-2. Run `01_schema_and_data.sql` first — creates database and loads all data
-3. Run `02_analysis_queries.sql` — executes all 25 business queries
+2. Run `01_schema_and_data.sql` first, creates database and loads all data
+3. Run `02_analysis_queries.sql`, executes all 25 business queries
 4. Each query is labeled with the business question it answers
 
 ---
 
-## 💡 What I Learned
+## What I Learned
 
 - Designing normalized relational databases from scratch
-- Writing window functions — LAG, NTILE, SUM OVER — for advanced analytics
+- Writing window functions : LAG, NTILE, SUM OVER for advanced analytics
 - Building RFM models used by real e-commerce companies like Swiggy and Flipkart
 - Translating business problems into SQL queries
 - Identifying actionable insights from raw transaction data
